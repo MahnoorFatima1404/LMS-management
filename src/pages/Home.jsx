@@ -8,23 +8,23 @@ import TeachersCard from "../compoents/TeachersCard";
 
 const FEATURES_DATA = [
   {
-    isLike: true,
+    // isLike: true,
     heading: "Expert Faculty",
     description:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
   },
   {
-    heading: "Expert Faculty",
+    heading: "Well Equipped Labs",
     description:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
   },
   {
-    heading: "Expert Faculty",
+    heading: "Quality Education",
     description:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
   },
   {
-    heading: "Expert Faculty",
+    heading: "24 x 7 Access",
     description:
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
   },
@@ -54,8 +54,8 @@ function Home() {
                 or a typeface without relying on meaningful content. Lorem ipsum
                 may be used as a placeholder before final copy is available.
               </p>
-              <Button type="button" className="btn btn-theme text-white">
-                Apply Online
+              <Button type="button" className="btn btn-theme">
+                Read More
               </Button>
             </Col>
           </Row>

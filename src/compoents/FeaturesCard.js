@@ -8,14 +8,14 @@ function FeaturesCard({ heading, description, isLike }) {
         <div className="card-body text-center">
           <h5 className="card-title">{heading}</h5>
           <p className="card-text">{description}</p>
-          <p
+          {/* <p
             onClick={() => {
               changeLike(!like);
             }}
             style={{ backgroundColor: like ? "green" : "red" }}
           >
             Like
-          </p>
+          </p> */}
         </div>
       </div>
     </div>
